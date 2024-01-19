@@ -23,9 +23,9 @@ body {
     margin-bottom: 10px;
     padding: 5px;
     font-size: 18px;
-    background-color: #333333; 
-    color: #ffffff; 
-    border: none; 
+    background-color: #333333; /* Añadido: Color de fondo oscuro */
+    color: #ffffff; /* Añadido: Texto en color blanco */
+    border: none; /* Añadido: Elimina el borde */
 }
 
 
@@ -39,10 +39,11 @@ button {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #151111; 
-    color: #ffffff; 
+    background-color: #151111; /* Añadido: Color gris más oscuro */
+    color: #ffffff; /* Añadido: Texto en color blanco para contrastar */
 }
 
 button:hover {
-    background-color: #666666;
+    background-color: #666666; /* Añadido: Color gris más oscuro cuando el botón está en estado hover */
 }
+
